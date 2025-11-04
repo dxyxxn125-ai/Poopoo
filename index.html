@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🔥 친구를 웃게 만드는 장난 매뉴얼 🔥</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Jua&family=Gothic+A1:wght@400;600&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Gothic A1', sans-serif;
+    }
+
+    body {
+      background: #0d0d0d;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(6px);
+      z-index: 10;
+      box-shadow: 0 2px 8px rgba(255, 69, 0, 0.4);
+    }
+
+    header h1 {
+      font-family: 'Jua', sans-serif;
+      color: #ff4500;
+      font-size: 1.6rem;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffae42;
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 120px 10% 80px 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      animation: fadeIn 1.5s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    section h2 {
+      font-family: 'Jua', sans-serif;
+      font-size: 2.5rem;
+      margin-bottom: 25px;
+      text-shadow: 0 0 10px #ff6b00, 0 0 25px #ff6b00;
+    }
+
+    section p {
+      font-size: 1.2rem;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: inset 0 0 15px rgba(255, 100, 0, 0.5);
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: linear-gradient(45deg, #ff6a00, #ff2e00);
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 15px;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(45deg, #ffae42, #ff4e00);
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 10%;
+      background: #1a1a1a;
+      border-top: 2px solid #ff4500;
+      color: #ccc;
+    }
+
+    /* 섹션별 배경 */
+    #intro { background: radial-gradient(circle at top left, #ff4500, #1a0000); }
+    #humor { background: radial-gradient(circle at bottom right, #ff2e00, #000); }
+    #challenge { background: radial-gradient(circle at top right, #ff6a00, #1a0000); }
+    #laugh { background: radial-gradient(circle at bottom left, #ff3b00, #0d0000); }
+    #ending { background: linear-gradient(135deg, #ff4500, #000); }
+
+    /* 버튼 효과용 불꽃 이모티콘 */
+    .flame {
+      animation: flicker 1s infinite alternate;
+    }
+    @keyframes flicker {
+      from { opacity: 0.7; transform: scale(1); }
+      to { opacity: 1; transform: scale(1.1); }
+    }
+
+    @media (max-width: 768px) {
+      header { flex-direction: column; padding: 10px 20px; }
+      nav { margin-top: 10px; }
+      section { padding: 100px 8% 60px 8%; }
+      section h2 { font-size: 2rem; }
+      section p { font-size: 1rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>🔥 장난 매뉴얼 🔥</h1>
+    <nav>
+      <a href="#intro">웃기게 놀리기</a>
+      <a href="#humor">유머 센스 테스트</a>
+      <a href="#challenge">티키타카 챌린지</a>
+      <a href="#laugh">웃음 버튼</a>
+      <a href="#ending">마무리 멘트</a>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h2>😜 웃기게 놀리기</h2>
+    <p>친구의 기분은 상하게 하지 않으면서, 살짝 웃기게 놀릴 수 있는 장난 아이디어!</p>
+    <div class="highlight">
+      <ul>
+        <li>📱 카톡 이름을 몰래 “국민아이돌”로 저장하고 놀라게 하기</li>
+        <li>🎵 친구가 부르는 노래 가사 일부러 틀리게 따라부르기</li>
+        <li>🍕 음식 사진 보낼 때 "한 입만~" 짤 동시 전송하기</li>
+      </ul>
+    </div>
+    <p>포인트는 <b>상대가 웃게 만드는 타이밍</b>이에요!</p>
+  </section>
+
+  <section id="humor">
+    <h2>😂 유머 센스 테스트</h2>
+    <p>아래 버튼을 눌러서 랜덤으로 ‘센스 테스트 문장’을 확인하세요!</p>
+    <div class="highlight" id="humor-box">여기에 유머 문장이 표시됩니다 😏</div>
+    <a href="#" class="btn" id="humor-btn">테스트 시작하기</a>
+  </section>
+
+  <section id="challenge">
+    <h2>🔥 티키타카 챌린지</h2>
+    <p>서로의 말에 얼마나 센스 있게 대응하나 확인해보세요!</p>
+    <div class="highlight">
+      <ul>
+        <li>1️⃣ 상대의 말 끝 글자로 문장 이어가기</li>
+        <li>2️⃣ “그건 네 생각이고~” 밈으로 마무리 금지 😆</li>
+        <li>3️⃣ 웃으면 바로 패배!</li>
+      </ul>
+    </div>
+    <a href="#laugh" class="btn">웃음 버튼으로 이동</a>
+  </section>
+
+  <section id="laugh">
+    <h2>🤣 웃음 버튼</h2>
+    <p>기분이 애매할 땐 그냥 웃어버리자!</p>
+    <a href="#" class="btn flame" id="laugh-btn">😂 웃기 버튼</a>
+    <div id="laugh-box" style="margin-top:20px; font-size:1.5rem; text-align:center;"></div>
+  </section>
+
+  <section id="ending">
+    <h2>🏁 마무리 멘트 생성기</h2>
+    <p>장난 후엔 따뜻한 한마디로 마무리하세요 💬</p>
+    <div class="highlight" id="ending-box">"오늘도 웃겨줘서 고마워 😆"</div>
+    <a href="#" class="btn" id="ending-btn">다른 멘트 보기</a>
+  </section>
+
+  <footer>
+    <p>© 2025 친구유머연구소 | 웃음은 최고의 장난</p>
+    <p>🔥 Keep Laughing, Keep Friendly 🔥</p>
+  </footer>
+
+  <script>
+    const humorBtn = document.getElementById('humor-btn');
+    const humorBox = document.getElementById('humor-box');
+    const humorTexts = [
+      "왜 나보다 먼저 웃는 거야? 나 아직 준비 안 됐는데 😂",
+      "오늘 기분 어때? 나만 재밌는 거 아니지? 😎",
+      "이 대화의 센터는 나야, 네가 아니라구!",
+      "웃기려다 본인이 더 웃긴 사람 있죠? 바로 너 😏"
+    ];
+    humorBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      humorBox.textContent = humorTexts[Math.floor(Math.random() * humorTexts.length)];
+    });
+
+    const laughBtn = document.getElementById('laugh-btn');
+    const laughBox = document.getElementById('laugh-box');
+    const laughs = ["ㅋㅋㅋㅋㅋㅋㅋㅋ", "하핳핳🤣", "으하하하하🔥", "푸흡😂"];
+    laughBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      laughBox.textContent = laughs[Math.floor(Math.random() * laughs.length)];
+    });
+
+    const endingBtn = document.getElementById('ending-btn');
+    const endingBox = document.getElementById('ending-box');
+    const endings = [
+      "장난은 끝! 진짜로 친구라서 고마워 💚",
+      "너 없으면 재미 없잖아 😆",
+      "오늘도 웃음 충전 완료 ⚡",
+      "다음엔 내가 당할 차례일지도...?"
+    ];
+    endingBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      endingBox.textContent = endings[Math.floor(Math.random() * endings.length)];
+    });
+  </script>
+</body>
+</html>
